@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
        btnCalcular.setOnClickListener {
         val peso = edtPeso.text
         val altura = edtAltura.text
-        println("Thiago lindo" + peso)
+        println("Thiago" + peso)
        }
 
 
