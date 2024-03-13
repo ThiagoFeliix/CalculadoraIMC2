@@ -1,5 +1,6 @@
 package com.comunidadedevspace.imc
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -19,8 +20,7 @@ class MainActivity : AppCompatActivity() {
        btnCalcular.setOnClickListener {
 
         val pesoStr : String = edtPeso.text.toString()
-        val alturaStr : String  =  edtAltura.text.toString()
-
+        val alturaStr : String  = edtAltura.text.toString()
            if (pesoStr == "" || alturaStr == ""){
 
                Snackbar
@@ -37,8 +37,10 @@ class MainActivity : AppCompatActivity() {
 
                val alturaQ2 = altura * altura
                val resultado = peso / alturaQ2
-
-               println("Thiago " + resultado )
+               val intent = Intent(this, ResultActivity2::class.java)
+               intent.putExtra(KEY_RESULT_IMC, resultado)
+               startActivity(intent)
+               println("Thiago acao do botao "  + resultado)
            }
 
        }
