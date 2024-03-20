@@ -1,9 +1,9 @@
 package com.comunidadedevspace.imc
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputEditText
 
@@ -19,8 +19,8 @@ class MainActivity : AppCompatActivity() {
 
        btnCalcular.setOnClickListener {
 
-        val pesoStr : String = edtPeso.text.toString()
-        val alturaStr : String  = edtAltura.text.toString()
+        val pesoStr: String = edtPeso.text.toString()
+        val alturaStr: String  = edtAltura.text.toString()
            if (pesoStr == "" || alturaStr == ""){
 
                Snackbar
@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                val intent = Intent(this, ResultActivity2::class.java)
                intent.putExtra(KEY_RESULT_IMC, resultado)
                startActivity(intent)
-               println("Thiago acao do botao "  + resultado)
+
            }
 
        }
