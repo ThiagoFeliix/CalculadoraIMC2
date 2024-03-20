@@ -1,19 +1,32 @@
 # Calculadora IMC
-Desc
-
+Esse é um novo projeto atualizado que foi feito utilizando a mesma programação Kotlin para calcular o IMC e mostrar o resultado na tela seguinte.Com icones e cores 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
 Screenshots
+<img src="https://github.com/ThiagoFeliix/CalculadoraIMC2/assets/151776228/0f0704dd-7970-4aeb-8370-55849a9b3980" width=200/> <img src="https://github.com/ThiagoFeliix/CalculadoraIMC2/assets/151776228/837a22d4-34a3-4cb5-b3b1-0caf747b8bef" width=200/>
+
+
+
 
 ## Tecnologias
-Techs
+-Activity
+-Intent
+-SnackBar
+-ViewGroups
+  -ImageView
+  -TextView
+  -EditText
+  -Button
+  
+  
+  
 
 
 ## License
 ```
 The MIT License (MIT)
 
-Copyright (c) 2023 Roque Buarque Junior
+Copyright (c) 2024 Thiago Felix Moreira
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
